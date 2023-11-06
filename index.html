@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mediamarkt</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body class="index">
+    <header>
+        <!--ID gebruikt om de label en de checkbox samen te laten werken-->
+        <input type="checkbox" id="nav-toggle">
+        <label for="nav-toggle">
+            <h1 class="sr-only">Welkom op de MediaMarktwebpagina</h1>
+            <spasn class="sr-only">Check de box om het menu te openen/sluiten</spasn>
+            <span></span>
+        </label>
+        <a type="logo" href="index.html">
+            <img src="images/logoMM.png" alt="Logo MediaMarkt">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="">MediaMarkt App</a></li>
+                <li><a href="">Merken Mania</a></li>
+                <li><a href="">Alle deals</a></li>
+                <li><a href="">Onze services</a></li>
+                <li><a href="">Klantenservice</a></li>
+                <li><a href="">MediaMarkt-club</a></li>
+                <li><a href="">Business solutions</a></li>
+                <li><a href="">Outlet</a></li>
+                <li><a href="">Telefoonabonnementen</a></li>
+                <li><a href="">Cadeaukaarten</a></li>
+                <li><a href="">MediaZine</a></li>
+                <li><a href="">Vacatures</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="#">
+                <img src="images/accountMM.png" alt="Icoontje account">
+            </a>
+            <a class="notification-container" href="#">
+                <img src="images/winkelMandjeMM.png" alt="Icoontje winkelmandje">
+            </a>
+            
+        </div>
+        <section>
+            <h2 class="sr-only">Zoekbalk</h2>
+            <input type="text" placeholder="Wat zoek je?">
+        </section>
+        <section>
+            <h2 class="sr-only">Haal binnen 30 minuten op</h2>
+            <a href="">Binnen 30 minuten ophalen</a>
+        </section>
+    </header>
+    <main>
+        <!--Reclame Banner-->
+        <div>
+            <img aria-label="EVEN- Hompage-Teaser- superkans - w44" data-test="mms-dull-image-teaser"
+                src="images/reclameBannerphone.jpeg" alt="Reclame banner">
+        </div>
+        <!--Categorieën-->
+        <section>
+            <section>
+                <img src="images/dysonSales.webp" alt="Dyson stofzuiger">
+                <a href="#"><em>Dyson deals</em></a>
+            </section>
+            <section>
+                <img src="images/app-onlyDeals.png" alt="app aanbiedingen">
+                <p><a href="#"><em>App only deals</em></a></p>
+            </section>
+            <section>
+                <img src="images/smartphoneAanbiedingen.png" alt="telefoon aanbiedingen">
+                <p><a href="#"><em>Smartphone aanbiedingen</em></a></p>
+            </section>
+            <section>
+                <img src="images/superSale.webp" alt="grote aanbiedingen">
+                <p><a href="#"><em>Super sale</em></a></p>
+            </section>
+            <section>
+                <img src="images/abboDeals.webp" alt="Abonnementen deals">
+                <p><a href="#"><em>Abonnementen deals</em></a></p>
+            </section>
+            <section>
+                <img src="images/laptopdeals.webp" alt="Laptop deals">
+                <p><a href="#"><em>Laptop deals</em></a></p>
+            </section>
+        </section>
+
+
+        <!--Carousel-->
+        <div class="slide-container">
+            <div class="slide">
+                <div class="card">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="images/koffiemachine.webp" alt="koffiemachine" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <ul>
+                            <li>Superkans</li>
+                            <li>€25,- inruilwaarde</li>
+                        </ul>
+                        <h2 class="titelproduct">MAGIMIX
+                            Nespresso Vertuo POP met
+                            Aerocinno Zwart</h2>
+                        <p class="description">Adviesprijs <em>549,-</em>
+                            <strong>€449</strong>
+                        </p>
+                        <a href="detailpagina.html" class="button">Bekijk product</a>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="images/telefoonMM.webp" alt="Samsung zwarte telefoon" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <ul>
+                            <li>Superkans</li>
+                            <li>€25,- inruilwaarde</li>
+                        </ul>
+                        <h2 class="titelproduct">Samsung Galaxy
+                            A54 5G-128GB Zwart
+                        </h2>
+                        <p class="description">Adviesprijs <em>499,-</em>
+                            <strong>€399</strong>
+                        </p>
+                        <a href="detailpagina2.html" class="button">Bekijk product</a>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="images/laptopMM.webp" alt="Grijze Asus laptop" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <ul>
+                            <li>Superkans</li>
+                            <li>€25,- inruilwaarde</li>
+                        </ul>
+                        <h2 class="titelproduct">ASUS
+                            EJ4051W</h2>
+                        <p class="description">Adviesprijs <em>699,-</em>
+                            <strong>€499</strong>
+                        </p>
+                        <a href="detailpagina2.html" class="button">Bekijk product</a>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="images/deurbelMM.webp" alt="Eufy batterij zwarte deurbel" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <ul>
+                            <li>Superkans</li>
+                            <li>€25,- inruilwaarde</li>
+                        </ul>
+                        <h2 class="titelproduct">Eufy Slimme Deurbel
+                            Batterij 1080P Zwart
+                        </h2>
+                        <p class="description">Adviesprijs
+                            <strong>€129,90</strong>
+                        </p>
+                        <a href="detailpagina2.html" class="button">Bekijk product</a>
+                    </div>
+                </div>
+
+            </div>
+            <a class="slide-button prev">Previous</a>
+            <a class="slide-button next">Next</a>
+        </div>
+
+    </main>
+    <footer>
+        <section>
+            <h4>Contact</h4>
+            <section>
+                <p>Veelgestelde vragen</p>
+                <a href="#">Vind je antwoord hier</a>
+            </section>
+            <section>
+                <p>Nog meer vragen</p>
+                <a href="#">Vul het contactformulier in</a>
+            </section>
+        </section>
+        <section class="toggle-section">
+            <input id='revealLi1' type="checkbox">
+            <h4>Categorieën</h4>
+            <section class="content">
+                <ul>
+                    <li><a href="">Beeld & Geluid</a></li>
+                    <li><a href="">Foto & Video</a></li>
+                    <li><a href="">Huishouden en wonen</a></li>
+                </ul>
+                <label for="revealLi1">Minder</label>
+            </section>
+            <label for="revealLi1">Meer</label>
+        </section>
+
+        <section class="toggle-section">
+            <input id='revealLi2' type="checkbox">
+            <h4>Over MediaMarkt</h4>
+            <section class="content">
+                <ul>
+                    <li><a href="">Winkels</a></li>
+                    <li><a href="">Business Solutions</a></li>
+                    <li><a href="">Over ons</a></li>
+                </ul>
+                <label for="revealLi2">Minder</label>
+            </section>
+            <label for="revealLi2">Meer</label>
+        </section>
+
+        <section class="toggle-section">
+            <input id='revealLi3' type="checkbox">
+            <h4>Services</h4>
+            <section class="content">
+                <ul>
+                    <li><a href="">Telefoonabonnementen</a></li>
+                    <li><a href="">Verzekeringen</a></li>
+                    <li><a href="">Schermreparatie</a></li>
+                </ul>
+                <label for="revealLi3">Minder</label>
+            </section>
+            <label for="revealLi3">Meer</label>
+        </section>
+        <section class="toggle-section">
+            <input id='revealLi4' type="checkbox">
+            <h4>Klantenservice</h4>
+            <section class="content">
+                <ul>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Bezorgen</a></li>
+                    <li><a href="">Bestellen</a></li>
+                </ul>
+                <label for="revealLi4">Minder</label>
+            </section>
+            <label for="revealLi4">Meer</label>
+        </section>
+        <section class="toggle-section">
+            <input id='revealLi5' type="checkbox">
+            <h4>Nieuws</h4>
+            <section class="content">
+                <ul>
+                    <li><a href="">Pers & PR</a></li>
+                    <li><a href="">MediaZine</a></li>
+                    <li><a href="">Aanmelden voor de nieuwsbrief</a></li>
+                </ul>
+                <label for="revealLi5">Minder</label>
+            </section>
+            <label for="revealLi5">Meer</label>
+        </section>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
