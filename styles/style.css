@@ -121,7 +121,7 @@ label[for=nav-toggle] span::after {
 }
 
 label[for=nav-toggle] span::before {
-    bottom: 0.4375;
+    bottom: 0.4375em;
 }
 
 label[for=nav-toggle] span::after {
