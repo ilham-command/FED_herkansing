@@ -83,8 +83,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/breakdownschetsindex.HEIC" width="375px" alt="breakdown van de hele pagina">
-  <img src="readme-images/breakdownschetsdetail.HEIC" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschetsindex.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschetsdetail.png" width="375px" alt="breakdown van de hele pagina">
 </details>
 
 
@@ -107,6 +107,7 @@ Na de lessen met de oefeningen van grid, ben ik begonnen met de header voor een 
 
   ### Agenda voor meeting
   <strong>Dit gedeelte is niet bepaald gedaan, ik denk dat we dit ook niet als opdracht kregen tijdens de les</strong>
+  <br><br>
   samen met je groepje opstellen
 
   | student 1      | student 2          | student 3    | student 4        |
@@ -126,6 +127,9 @@ Na de lessen met de oefeningen van grid, ben ik begonnen met de header voor een 
     is het moeilijk om het responsive te maken.
   - Tip: Vergeet je H1 niet, een logo is geen h1
 
+  Het handige aan de feedback was, was dat ik een begin maakte aan een nieuw document, en browsde meer over responsiveness. Ik lette vanaf dit moment meer op hoe de Mediamarkt website omgaat met verschillende devices en hoe de positionering verandert.
+
+  Ook was het heel handig dat ik van de docent een tip kreeg om headings inclusively hidden te maken, zodat het wel voor de screenreader te lezen is, maar niet te zien is voor de gebruiker. Het stukje code die ik heb gebruikt staat ook in de bronnenlijst. 
 </details>
 
 
@@ -139,7 +143,7 @@ Na de lessen met de oefeningen van grid, ben ik begonnen met de header voor een 
 
   ### Stand van zaken
   Vanaf week drie begon ik met mijn hamburgermenu,
-  door kevin powells video(Bekijk bronnenlijst), mijn header was nu
+  door Kevin Powells video(Bekijk bronnenlijst), mijn header was nu
   responsive en daar was ik heel blij mee.
 
   Ik begon met werken aan andere elementen van de heading, zoals de logo, zoekbalk en utility nav.
@@ -159,6 +163,13 @@ Na de lessen met de oefeningen van grid, ben ik begonnen met de header voor een 
   Dit was meer een meeting waarbij de docent bij iedereen langsliep. 
   Ik kreeg te horen dat ik best ver achterliep. Maar ik struggelde persoonlijk ook heel erg met mediaqueries. En besloot vanaf hier niet meer aan FED te werken en voor de herkansing te gaan.
 
+  Voor de zekerheid heb ik een plan van aanpak voor mezelf gemaakt, dat mij zou helpen in de voortgang van het vak FED. 
+
+  Mijn plan van aanpak in 3 fases:
+  - Fase 1: Header en Footer als eerst maken, sinds dit voor beide pagina's het fundament is en hetzelfde zal zijn. 
+  - Fase 2: Bepalen welke onderdelen van de main index en detailpagina ik als eerst zou willen maken, waarbij ik niet al te veel in herhaling val.
+  - Fase 3: Vraag aan mede-studenten om hulp als je ergens tegenaan loopt.
+
 </details>
 
 
@@ -174,11 +185,11 @@ Na de lessen met de oefeningen van grid, ben ik begonnen met de header voor een 
 
   ### Bevindingen
   Wat ik vooral heb opgemerkt door de test, is hoe ik niet heb opgelet op 
-  de chronologische volgorde van headings, maar ook hoe ik laat zien dat links klikbaar zijn. 
+  de chronologische volgorde van headings, maar ook hoe ik laat zien dat links klikbaar zijn. Ik heb dus eigenlijk meer nagedacht over hoe ik als developer de site bouw, dan hoe de gebruiker het zou zien. 
+  
+  Mijn plan was om meer gebruik te maken van hovers. Voor menu-elementen enkel een underline als text-decoration, maar voor buttons en a hrefs vormgegeven als een button, misschien een kleurverandering of zelfs een dropshadow. Met dit soort aanpassingen ziet de gebruiker wat een bepaalt element in het document doet. "If it looks like a button, it should react like it." Dit zorgt voor een betere interactie tussen computer en mens, zonder enige verwarring.
 
-  Ik heb dus eigenlijk meer nagedacht over hoe ik als developer de site bouw, dan hoe de gebruiker het zou zien. 
-
-  Mijn responsiveness van de site was wel echt top.
+  Mijn responsiveness van de site was wel echt top. MediaQueries gingen goed, want mijn navigatie ging van een verstopte navigatie in een hamburgermenu, naar het vervangen van een hamburgermenu in een open menu. 
 
 </details>
 
@@ -192,7 +203,29 @@ Na de lessen met de oefeningen van grid, ben ik begonnen met de header voor een 
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Ik heb dit herkanst, dus mijn proces loopt niet echt hetzelfde als dit document.
+  <strong>Note: mijn proces loopt wat anders want ik heb vanaf week 4 niks meer gedaan en ben voor de herkansing gegaan.</strong>
+  <br><br>
+  Tijdens het werken aan het project, hielp de aanpak heel erg om eerst de header en de footer te maken. Zo zag ik het lichtpuntje aan het eind van een donkere tunnel. Maar dit verliep helaas niet zonder moeite.
+  <br><br>
+  header
+  <img src="readme-images/header1.png" alt=""></img>
+  Voor mijn header werkte ik met een grid. Voor enkel de navigatie verliep dat best makkelijk, maar toen er meerdere elementen bijkwamen, moesten de elementen natuurlijk per schermgrootte veranderd worden van positie, oftewel de row van de grid en de kolommen. Hier paste ik toe wat ik had geleerd tijdens de lessen over grid en werkte ik met grid-row-start en grid-column-start. 
+
+  Enkel werkte dat in het begin voor geen meter. Toen ik mijn zoekbalk en iconen op een grote scherm, op row 2 verplaatste, pasten ze niet in het scherm. De probleemstelling lag uiteindelijk bij een css regel over de header, waarbij de grid werd overschreven. Hier kwam ik alleen achter door de web gecheckt te hebben, die ook duidelijk aangaf waar de probleemstelling zat, omdat ik zag welke css regels werkten op mijn element. 
+
+  Hier heb ik uit geleerd hoe goed de console je kan helpen bij het ontdekken van fouten en hoe belangrijk het is dat je code overzichtelijk is. Voor mij hielp het heel erg om alles een comment te geven voor welk element de css is bedoeld. Zo kun je het makkelijker terug vinden.
+
+  main 
+  <img src="readme-images/main1.png" alt=""></img>
+  <img src="readme-images/main2.png" alt=""></img>
+
+  Voor mijn main had ik een reclame banner van de mediamarkt willen gebruiken, die per schermgrootte veranderde van image. Mediamarkt zelf maakte gebruik van een ::after tag in de html en zorgde voor een lege content tag in de css met een backgroundimage url in de css, die dan per schermgrootte zou aanpassen van plaatje. Toen ik dezelfde code wou toepassen in mijn eigen code, verscheen het plaatje helemaal niet in mijn liveserver. Ik probeerde ook uit om inplaats van een url de images in mijn image map te zetten en daarna zou mijn images te laten verschijnen, enkel lukte dit ook niet. Ik hield het uiteindelijk maar bij 1 image die in mijn html zat, zonder de ::after tag.
+
+  footer
+  <img src="readme-images/footer1.png" alt=""></img>
+  <img src="readme-images/footer2.png" alt=""></img>
+
+  Voor de footer wou ik voor mijn smartphonescherm een knop van een pijltje naar beneden hebben dat de navigatie per kop zou vertonen. Deze svg van een pijltje werd in de console van mediamarkt getoond als een path en niet als een afbeelding. Door de transform in de css zou de pijl omdraaien als erop geklikt zou worden. Enkel wanneer ik de path element gebruikte in mijn CSS verscheen die niet in live server. Ik wou alsnog wel laten zien dat ik hetzelfde effect kan bereiken door iets anders te doen, namelijk door het meer en minder button. Waarbij ik speelde met de visibility van de buttons en de info die getoond werd.
 
 </details>
 
@@ -252,7 +285,7 @@ Na de lessen met de oefeningen van grid, ben ik begonnen met de header voor een 
   Nb. Vermeld de bronnen ook in je code.
 
   1. https://css-tricks.com/inclusively-hidden 
-  2. https://www.youtube.com/watch?v=8QKOaTYvYUA*
+  2. https://www.youtube.com/watch?v=8QKOaTYvYUA
   3. https://www.youtube.com/watch?v=qOO6lVMhmGc
   4. https://www.youtube.com/watch?v=qOO6lVMhmGc
   5. https://youtu.be/b6_u8IVVLdo?si=g4pF8SDBnJhCsx_d
